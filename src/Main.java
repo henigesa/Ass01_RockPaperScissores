@@ -48,7 +48,8 @@ public class Main {
                 //enter loop until user gets it right if wrong
                 while (check == 2) {
                     System.out.println("Sorry, you did not enter a valid input. Either enter R, P, or S. Try again.");
-                    userInput = input.nextLine();
+                    userInput = input.next();
+                    //check if need to continue while loop
                     if (userInput.equalsIgnoreCase("R") || userInput.equalsIgnoreCase("P") || userInput.equalsIgnoreCase("S")) {
                         check = 1;
                     } else {
@@ -68,7 +69,8 @@ public class Main {
                 //enter loop until user gets it right if wrong
                 while (check == 2) {
                     System.out.println("Sorry, you did not enter a valid input. Either enter R, P, or S. Try again.");
-                    twoUserInput = input.nextLine();
+                    twoUserInput = input.next();
+                    //check if need to continue while loop
                     if (twoUserInput.equalsIgnoreCase("R") || twoUserInput.equalsIgnoreCase("P") || twoUserInput.equalsIgnoreCase("S")) {
                         check = 1;
                     } else {
@@ -121,7 +123,8 @@ public class Main {
                 //enter loop until user gets it right if wrong
                 while (check == 2) {
                     System.out.println("Sorry, you did not enter a valid input. Either enter R, P, or S. Try again.");
-                    userInput = input.nextLine();
+                    userInput = input.next();
+
                     if (userInput.equalsIgnoreCase("R") || userInput.equalsIgnoreCase("P") || userInput.equalsIgnoreCase("S")) {
                         check = 1;
                     } else {
