@@ -126,7 +126,7 @@ public class Main {
                 while (check == 2) {
                     System.out.println("Sorry, you did not enter a valid input. Either enter R, P, or S. Try again.");
                     userInput = input.next();
-
+                    //check if still need to be in while loop
                     if (userInput.equalsIgnoreCase("R") || userInput.equalsIgnoreCase("P") || userInput.equalsIgnoreCase("S")) {
                         check = 1;
                     } else {
