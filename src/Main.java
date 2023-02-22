@@ -10,8 +10,10 @@ The first game mode is a game of rock paper scissors where one person inputs one
 and then a second person inputs their move.
 The second game mode is a game of rock paper scissors where the computer randomly
 generates a play and the user inputs a play to essentially play rock paper scissors
-against a computer that is bad at rock paper scissors. To run this program, the user must
-enter
+against a computer that is bad at rock paper scissors. The main class can be
+cleaned up by splitting the two game types into two classes. I would like to
+go back and do that when I learn how.
+To run this program, the user must enter
 1. their choice of gameplay
 2. their choice of rock, paper, or scissors
 3. and whether they choose to continue playing
